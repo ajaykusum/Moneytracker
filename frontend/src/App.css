@@ -1,9 +1,8 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 body{
-  /* background-color: #1a1d2d;
-  color: #ffffff; */
+  
   background-image: url("back.jpeg");
 }
 .main-container{
@@ -14,7 +13,7 @@ body{
 }
 .right-partition {
   flex: 2;
-  padding-left: 10px; /* Add some padding to create a gap between the left and right partitions */
+  padding-left: 10px; 
 }
 main{
   max-width: 360px;
@@ -107,4 +106,189 @@ div.price.red{
 div.transaction div.datetime{
   font-size: .7rem;
   color: #888;
+} */
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  /* background-color: #1a1d2d;
+  color: #ffffff; */
+  background-image: url("back.jpeg");
+}
+
+main{
+  max-width: 450px;          /* define max width of element*/
+  margin: 30px auto;         /* margin from top/bottom and left/right  */
+  /* margin-right: 30%; */
+  background-color:rgb(27, 44, 51);
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: hsl(252, 28%, 46%);
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: Monaco;
+}
+h1 span{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 6px;
+}
+div.mm h1{
+  color: hsl(34, 98%, 61%);
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: cursive;
+}
+div.some p{
+  margin-left: 50px;
+  color: aliceblue;
+  font-size: large;
+}
+form{
+  margin-top: 20px;
+}
+form input{
+  width: 100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #30313d;
+  padding: 2px 5px;   /* space between the content of an element and its inner edges top/bottom and left/right*/
+  border-radius: 5px;
+}
+form input[type="datetime-local"]{
+  color: #777;
+}
+form div.basic{
+  display: flex; 
+  gap: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+form button{
+  width: 100%;
+  margin-top: 5px ;
+  border: 0 ;
+  border-radius: 5px; /* rounded corner */
+  padding: 5px;
+  background-color: hsl(253, 24%, 50%);
+}
+div.transactions{
+  margin-top: 10px;
+}
+div.transaction{
+  display: flex;
+  justify-content: space-between; /* space between discription and price */
+  padding: 5px 0;
+  border-top: 1px solid #30313d;  /* line b/w transaction */
+}
+div.transaction:first-child{
+  border-top: 0;
+}
+div.transaction div.name{
+  font-size: 1.2rem;
+}
+div.transaction div.description{
+  font-size: .7rem;
+  color: #888;
+}
+div.right{
+  text-align: right;
+}
+div.price.green{
+  color: #1c1;
+}
+div.price.red{
+  color: #c11;
+}
+div.transaction div.datetime{
+  font-size: .7rem;
+  color: #888;
+}
+.footer-bottom{
+  background-color: rgb(102, 142, 129);
+}
+.footer-bottom.container.md{
+  text-align: center;
+}
+
+.footer{
+  background-color: rgb(11, 61, 55);
+  
+}
+.body-md{
+  text-align: center;
+}
+
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-block: 5px;
+  color: var(--light-gray);
+}
+
+
+
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  background-color: transparent;
+  font-size: larger;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0463a3;
+  font-weight: bold;
+}
+
+div.footer div.right{
+  align-items: right;
+  text-align: right;
+}
+
+
+
+.share-button a {
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px; /* Add spacing between transactions */
+  
+}
+
+.share-button a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+#contact{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ab{
+  color: #ddd;
 }
