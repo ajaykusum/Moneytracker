@@ -48,7 +48,7 @@ function App() {
   }
 
   balance=balance.toFixed(2);
-  const fraction= balance.split('.')[1];
+  //const fraction= balance.split('.')[1];
   // balance=balance.split('.')[0];
   return (
     
