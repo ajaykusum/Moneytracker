@@ -181,3 +181,22 @@ div.footer div.right{
 #ab{
   color: #ddd;
 }
+
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px; /* Adjust the value to control the curvature */
+  background-color: #42a881;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add styles for hover effect */
+.nav-link:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
