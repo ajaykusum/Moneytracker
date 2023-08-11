@@ -194,6 +194,7 @@ div.footer div.right{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  margin: 3px;
 }
 
 /* Add styles for hover effect */
