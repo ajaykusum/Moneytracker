@@ -19,7 +19,7 @@ h1{
   text-align: center;
   color: hsl(252, 28%, 46%);
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.5rem;  /* sizes relative to the root element's font size*/
   font-family: Monaco;
 }
 h1 span{
