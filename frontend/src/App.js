@@ -233,7 +233,7 @@ function App() {
                 </div>
                 <div className='right'>
                   {console.log(transaction.price)}
-                  <div className={'price' + (transaction.price < 0 ? 'red' : 'green')}>{transaction.price}</div>
+                  <div className={"price" + (transaction.price < 0 ? 'red' : 'green')}>{transaction.price}</div>
                   <div className='datetime'>2023-07-26 15:45</div>
 
                   <div className='share-button'>
